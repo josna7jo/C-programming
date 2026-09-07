@@ -14,7 +14,10 @@ int main(){
 //x=sin(x);
 //x=cos(x);
 
-    printf("%d", x);
+    printf("%d\n", x);
+    float y = 2.5;
+    y=ceil(y);
+    printf("%f\n", y);
 
 
      return 0;
