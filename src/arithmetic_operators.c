@@ -12,6 +12,11 @@ int z =0;
 
 z = x-y;
  printf("%d\n",z);
+
+ //x++
+ //x--
+ //x-=3
+ //x+=3
   x++;
   printf("%d\n",x);
 
