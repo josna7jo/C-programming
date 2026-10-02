@@ -20,11 +20,12 @@ int main(){
       printf("you get a discount of 10 percent\n");
       price *= 0.9;
     }
-    
+    else{
     if(issenior){
         printf("you get a discount of 20 percent\n");
         price *= 0.8;
     }
+}
 
 
     printf("The price of a ticket is: %.2f\n", price);
